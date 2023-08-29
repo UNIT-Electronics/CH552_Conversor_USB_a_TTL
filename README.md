@@ -42,7 +42,7 @@ El propósito de esta configuración es establecer una comunicación directa ent
 
 En escenarios donde la disponibilidad de otros dispositivos USB seriales es limitada o inexistente, esta solución adquiere un valor significativo. Permite que dos computadoras se comuniquen entre sí sin depender de recursos externos, facilitando el intercambio de información y datos de manera eficiente.
 
- Por ello se propone el uso de dos interfaces de comunicación para la verificación del funcionamiento, un [chat](Software\interface_Serial) a partir de la comunicación serial.
+ Por ello se propone el uso de dos interfaces de comunicación para la verificación del funcionamiento, un [chat](Software/interface_Serial) a partir de la comunicación serial.
  
  ![ChatSerial](img/usb-ttl.png)
 
@@ -72,7 +72,7 @@ En escenarios donde la disponibilidad de otros dispositivos USB seriales es limi
 ```
 **Prueba de funcionamiento**
 
- ![ChatSerial](img\usb-ttl_chat.png)
+ ![ChatSerial](img/usb-ttl_chat.png)
 
 Si bien no solo se puede usar como un convertidor USB a TTL, sino también puede introducir ciertas secciones de código para realizar ciertas funciones independientes. 
 
