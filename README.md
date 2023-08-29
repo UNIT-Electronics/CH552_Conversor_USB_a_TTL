@@ -9,16 +9,16 @@ El microcontrolador CH552 ofrece una amplia gama de capacidades y aplicaciones, 
 ```
 // Conexión CH552 Serial TX RX:
 // -------                                 CH552
-//                                       +--\/--+
-//                ---------------- P32  1|°     |16  V33 -------------
-//                ---------------- P14  2|      |15  Vcc -------------
-//                ---------------- P15  3|      |14  GND -------------
-//                ---------------- P16  4|      |13  P37 UDM --- USB D-
-//                ---------------- P17  5|      |12  P36 UDP --- USB D+
-//                ---------------- RST  6|      |11  P34 -------------
-//                  TX ----------- P31  7|      |10  P33 -------------
-//                  RX ----------- P30  8|      |9   P11 -------------
-//                                       +------+
+//                                          +--\/--+
+//                   ---------------- P32  1|°     |16  V33 -------------
+//                   ---------------- P14  2|      |15  Vcc -------------
+//                   ---------------- P15  3|      |14  GND -------------
+//                   ---------------- P16  4|      |13  P37 UDM --- USB D-
+//                   ---------------- P17  5|      |12  P36 UDP --- USB D+
+//                   ---------------- RST  6|      |11  P34 -------------
+//                     TX ----------- P31  7|      |10  P33 -------------
+//                     RX ----------- P30  8|      |9   P11 -------------
+//                                          +------+
 ```
 ## Documentación
 
@@ -44,31 +44,31 @@ En escenarios donde la disponibilidad de otros dispositivos USB seriales es limi
 
  Por ello se propone el uso de dos interfaces de comunicación para la verificación del funcionamiento, un [chat](Software\interface_Serial) a partir de la comunicación serial.
  
- ![ChatSerial](img\usb-ttl.png)
+ ![ChatSerial](img/usb-ttl.png)
 
 
 
 
 
  ```
-    \\─────────▄▲▲▲────────
-    \\─────▄█▀▌██████▄──────
-    \\────▐███▌███████▐▄────
-    \\─────▀██▌▄▐███▌▄▐██▐▌▀
-    \\─────────█─────█──────\
+    \\                  ─────────▄▲▲▲────────
+    \\                  ─────▄█▀▌██████▄──────
+    \\                  ────▐███▌███████▐▄────
+    \\                  ─────▀██▌▄▐███▌▄▐██▐▌▀
+    \\                  ─────────█─────█──────
  
 
- \\  _______________                            _______________  
- \\ |  ___________  |                          |  ___________  |    
- \\ | |           | | CH552            FTDI    | |           | |
- \\ | | >Hola     | | ------+         +------- | | >Hola     | |
- \\ | |           | |       |         |        | |           | |
- \\ | |           | |     RX|___  ____|RX      | |           | |
- \\ | |___     ___| |       |   \/    |        | |___________| |
- \\ |_____|\_/|_____|     TX|___/\____|TX      |_______________|
- \\   _|__|/ \|_|_          |         |            _|________|_
- \\  / ********** \  ------+         +--------   / ********** \
- \\ /  ************ \                           /  ************  \
+ \\          _______________                            _______________  
+ \\         |  ___________  |                          |  ___________  |    
+ \\         | |           | | CH552            FTDI    | |           | |
+ \\         | | >Hola     | | ------+         +------- | | >Hola     | |
+ \\         | |           | |       |         |        | |           | |
+ \\         | |           | |     RX|___  ____|RX      | |           | |
+ \\         | |___     ___| |       |   \/    |        | |___________| |
+ \\         |_____|\_/|_____|     TX|___/\____|TX      |_______________|
+ \\           _|__|/ \|_|_          |         |            _|________|_
+ \\          / ********** \  ------+         +--------   / ********** \
+ \\         /  ************ \                           /  ************  \
 ```
 **Prueba de funcionamiento**
 
@@ -84,9 +84,9 @@ Para instalar la interfaz es necesario la biblioteca de pyserial, para hacer uso
 
 El convertidor USB a TTL CH552, permite elaborar rutinas internas como secuencia de encendido de led o respuesta de algún parámetro se desee visualizar, ejecutar internamente del microcontrolador.
 
-El código de [ch552-USB-TTL](Software\UsbSerialAdaptor2) permite establecer las rutinas personalizadas realizando las adecuaciones necesarias al código ejemplo dado por el desarrollador.
+El código de [ch552-USB-TTL](Software/UsbSerialAdaptor2/UsbSerialAdaptor2.ino)permite establecer las rutinas personalizadas realizando las adecuaciones necesarias al código ejemplo dado por el desarrollador.
 
- ![ChatSerial](img\usb-ttl_chat_ch552.png)
+ ![ChatSerial](img/usb-ttl_chat_ch552.png)
 
 ## Recursos Adicionales
 
