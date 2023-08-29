@@ -26,7 +26,7 @@ En esta sección se detalla la configuración paso a paso para establecer la con
 
 Para ello se hace uso del código ejemplo proporcionado por la API desarrollada por [ch55xduino](https://github.com/DeqingSun/ch55xduino).
  
-Para una mejor compresión referente a la instalación te recomendamos ver nuestra, guía de instalación [Aquí]()
+Para una mejor compresión referente a la instalación te recomendamos ver nuestra, guía de instalación [Aquí](https://github.com/UNIT-Electronics/CH552-en-Arduino)
 
 ***Verificación de código***
 
@@ -51,11 +51,11 @@ En escenarios donde la disponibilidad de otros dispositivos USB seriales es limi
 
 
  ```
-    \\                  ─────────▄▲▲▲────────
-    \\                  ─────▄█▀▌██████▄──────
-    \\                  ────▐███▌███████▐▄────
-    \\                  ─────▀██▌▄▐███▌▄▐██▐▌▀
-    \\                  ─────────█─────█──────
+    \\  ─────────▄▲▲▲────────
+    \\  ─────▄█▀▌██████▄──────
+    \\  ────▐███▌███████▐▄────
+    \\  ─────▀██▌▄▐███▌▄▐██▐▌▀
+    \\  ─────────█─────█──────
  
 
  \\          _______________                            _______________  
@@ -67,7 +67,7 @@ En escenarios donde la disponibilidad de otros dispositivos USB seriales es limi
  \\         | |___     ___| |       |   \/    |        | |___________| |
  \\         |_____|\_/|_____|     TX|___/\____|TX      |_______________|
  \\           _|__|/ \|_|_          |         |            _|________|_
- \\          / ********** \  ------+         +--------   / ********** \
+ \\          / ********** \  ------+          +--------   / ********** \
  \\         /  ************ \                           /  ************  \
 ```
 **Prueba de funcionamiento**
@@ -108,5 +108,7 @@ Para mayor información, estos son algunos proyectos que usan la configuración 
  
 Estamos emocionados de presentarte esta colección de información y ejemplos que te ayudarán a aprovechar al máximo las capacidades del microcontrolador CH552 en términos de comunicación USB a TTL. Ya sea que seas un principiante en la programación de microcontroladores o un experto experimentado, esperamos que encuentres este repositorio útil y enriquecedor para tus proyectos.
 
-No dudes en explorar el contenido, clonar el repositorio y experimentar con los ejemplos proporcionados. ¡Te deseamos mucho éxito en tu viaje de aprendizaje y desarrollo con el microcontrolador CH552 y la comunicación USB a TTL!
+No dudes en explorar el contenido, clonar el repositorio y experimentar con los ejemplos proporcionados.
+
+> ¡Te deseamos mucho éxito en tu viaje de aprendizaje y desarrollo con el microcontrolador CH552 y la comunicación USB a TTL!
 
